@@ -32,22 +32,24 @@ Dockerfile: This file contains the instructions for building a Docker image of y
 
 ## Installation
 
-### Clone the Repository
+Clone the Repository
 ```bash
 git clone https://github.com/yourusername/ice_cream_parlor.git
 cd ice_cream_parlor
 
-### Install Dependencies
+
+Install Dependencies
 
 You can install the required Python packages using pip. If you have a requirements.txt file, run:
       pip install -r requirements.txt
 
+
 Running the Application
+
 Without Docker
       Ensure you are in the project directory.
       Run the application:
                  python app.py
-
 With Docker
     1.Build the Docker image:
                docker build -t ice_cream_parlor .
